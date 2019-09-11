@@ -27,6 +27,7 @@ android {
     }
     lintOptions {
        warning 'InvalidPackage', 'MissingPermission'
+        abortOnError false
     }
 }
 

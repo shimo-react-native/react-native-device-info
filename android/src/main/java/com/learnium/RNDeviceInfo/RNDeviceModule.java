@@ -267,7 +267,7 @@ public class RNDeviceModule extends ReactContextBaseJavaModule {
       CameraManager manager=(CameraManager)getReactApplicationContext().getSystemService(Context.CAMERA_SERVICE);
       try {
         p.resolve(manager.getCameraIdList().length > 0);
-      } catch (CameraAccessException e) {
+      } catch (Exception e) {
         p.reject(e);
       }
     } else {
