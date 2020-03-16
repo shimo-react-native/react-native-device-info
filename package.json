@@ -1,6 +1,6 @@
 {
-  "name": "react-native-device-info",
-  "version": "2.3.2",
+  "name": "@shimo/react-native-device-info",
+  "version": "2.3.2-shimo.1",
   "description": "Get device information using react-native",
   "main": "deviceinfo.js",
   "typings": "./deviceinfo.d.ts",
@@ -66,5 +66,8 @@
   "eslintConfig": {
     "extends": "@react-native-community"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "registry": "http://registry.npm.shimo.run/"
+  }
 }
